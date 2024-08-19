@@ -10,7 +10,7 @@ class QuestionsController < ApplicationController
               elsif @ask.include? '?'
                 'Silly question, get dressed and go to work!'
               else
-                'I do not care, get dressed and go to work!'
+                "I don't care, get dressed and go to work!"
               end
   end
 end
