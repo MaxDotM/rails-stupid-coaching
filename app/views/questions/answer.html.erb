@@ -1,12 +1,12 @@
 <h1>Stupid Coaching</h1>
-<div class="ms-2 border-start border-5">
-<p class="ps-2"> <%= @ask %>
-<br>- You<br>
-</p>
+<div class="ms-2 border-start border-5 lh-lg">
+  <p class="p-2"> <%= @ask %>
+  <br><i>- You</i><br>
+  </p>
 </div>
-<div class="ms-2 border-start border-5">
-<p class="coach ps-2"><strong> <%= @answer %></strong>
-<br>- Your Coach<br>
-</p>
+<div class="ms-2 border-start border-5 lh-lg">
+  <p class="coach p-2"><strong> <%= @answer %></strong>
+  <br><i>- Your Coach</i><br>
+  </p>
 </div>
 <%= link_to "Ask another question", ask_path %>
